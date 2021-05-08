@@ -62,16 +62,20 @@ You are old.
 ```
 ## Explanation
 - **Test Case 0:** __initialAge = -1__
+
 Because __initialAge < 0__, our code must set __age__ to and print the "Age is not valid..." message followed by the young message.
 Three years pass and ___age = 3__, so we print the young message again.
 
 - **Test Case 1:** __initialAge = 10__
+
 Because __initialAge < 13__, our code should print that the person is young. Three years pass and __age = 13__, so we print that the person is now a teenager.
 
 - **Test Case 2:** __initialAge = 16__
+
 Because __13 <= initialAge < 18__, our code should print that the person is a teenager. Three years pass and __age = 19__, so we print that the person is old.
 
 - **Test Case 3:** __initialAge = 18__
+
 Because __initialAge >= 18__, our code should print that the person is old. Three years pass and the person is still old at __age = 21__, so we print the old message again.
 
 **The extra line at the end of the output is supposed to be there and is trimmed before being compared against the test case's expected output. If you're failing this challenge, check your logic and review your print statements for spelling errors.**
