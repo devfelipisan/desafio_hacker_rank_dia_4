@@ -79,3 +79,8 @@ Because __13 <= initialAge < 18__, our code should print that the person is a te
 Because __initialAge >= 18__, our code should print that the person is old. Three years pass and the person is still old at __age = 21__, so we print the old message again.
 
 **The extra line at the end of the output is supposed to be there and is trimmed before being compared against the test case's expected output. If you're failing this challenge, check your logic and review your print statements for spelling errors.**
+
+## Result of unit tests 
+
+![image](https://user-images.githubusercontent.com/16018047/117555942-0b5a6f80-b03a-11eb-8725-fa4cbb21e3a4.png)
+
